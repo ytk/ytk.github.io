@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "Github Pages でブログ"
+title:  "GitHub Pages でブログを始める"
 date:   2015-03-29 07:31:56
 categories: jekyll github pages
 ---
 jekyll を使って Github Pages にブログを作るメモ
 
+1. (username).github.io レポジトリを作る
+1. [jekyll](http://jekyllrb.com/) をインストール
+1. セットアップ
 ```
-(username).github.io レポジトリを作る
-jekyll をインストール
-http://jekyllrb.com/
 $ jekyll new (username).github.io
 $ cd (username).github.io
 $ jekyll serve
