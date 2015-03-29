@@ -1,6 +1,6 @@
 # Site settings
 title: 二度ある事は三度目の正直
-email: your-email@domain.com
+#email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   技術的なネタをひたすらメモるブログ
 baseurl: "" # the subpath of your site, e.g. /blog/
