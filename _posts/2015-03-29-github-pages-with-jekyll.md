@@ -17,14 +17,14 @@ GitHub を使っている人であればやり方は簡単で、`(username).gith
 1. [jekyll](http://jekyllrb.com/) をインストールする
 1. セットアップ
 ```sh
-$ jekyll new (username).github.io
-$ cd (username).github.io
-$ jekyll serve # http://127.0.0.1:4000/ にアクセスして動作確認。Ctrl-c で抜ける。
-$ git init
-$ git add .
-$ git commit -m ‘create github pages’
-$ git remote add origin git@github.com:(username)/(username).github.io.git
-$ git fetch origin
-$ git push origin master
+$ jekyll new (username).github.io  
+$ cd (username).github.io  
+$ jekyll serve # http://127.0.0.1:4000/ にアクセスして動作確認。Ctrl-c で抜ける。  
+$ git init  
+$ git add .  
+$ git commit -m ‘create github pages’  
+$ git remote add origin git@github.com:(username)/(username).github.io.git  
+$ git fetch origin  
+$ git push origin master  
 ```
 1. http://(username).github.io にアクセスして動作確認（反映まで時間がかかることがある）
