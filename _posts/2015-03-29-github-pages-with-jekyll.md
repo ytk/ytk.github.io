@@ -16,21 +16,11 @@ GitHub を使っている人であればやり方は簡単で、`(username).gith
 ※GitHub Pages では Jekyll をサポートしているので、毎回ページを手動生成しなくとも、レポジトリに push するだけで GitHub Pages 側で自動生成処理が走ります。
 
 ### Jekyll を使って GitHub Pages でブログを始める手順
-1. GitHub アカウントが無い場合は[アカウント作成](https://github.com/)から。
+1. GitHub アカウントが無い場合は[アカウント作成](https://github.com/)を済ませる。
 1. (username).github.io レポジトリを作る
 1. [jekyll](http://jekyllrb.com/) をインストールする
 1. セットアップ
 
-```sh
-$ jekyll new (username).github.io
-$ cd (username).github.io
-$ jekyll serve # http://127.0.0.1:4000/ にアクセスして動作確認。Ctrl-c で抜ける。
-$ git init
-$ git add .
-$ git commit -m ‘create github pages’
-$ git remote add origin git@github.com:(username)/(username).github.io.git
-$ git fetch origin
-$ git push origin master
-```
+{% gist ytk/b303f3e382335978f1a9 %}
 
-1. http://(username).github.io にアクセスして動作確認（反映まで時間がかかることがある）
+http://(username).github.io にアクセスして動作確認（反映まで時間がかかることがある）
