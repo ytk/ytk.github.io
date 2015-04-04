@@ -7,6 +7,7 @@ tags: jekyll github pages blog
 
 記念すべき最初のポストは GitHub Pages でブログを始める方法を。
 
+### GitHub Pages って？
 GitHub ではスタティックなウェブサイトを無料で公開できる [GitHub Pages](https://pages.github.com/) というサービスがあります。  
 GitHub を使っている人であればやり方は簡単で、`(username).github.io` というレポジトリを作ってそこにコンテンツを push すると `http://(username).github.io` という URL で公開されるというものです。  
 ※username は GitHub アカウント名
@@ -14,6 +15,7 @@ GitHub を使っている人であればやり方は簡単で、`(username).gith
 ただし、1からサイトを作るのは大変なので、スタティックページジェネレーターである [Jekyll](http://jekyllrb.com/) を使って構築してみます。  
 ※GitHub Pages では Jekyll をサポートしているので、毎回ページを手動生成しなくとも、レポジトリに push するだけで GitHub Pages 側で自動生成処理が走ります。
 
+### Jekyll を使って GitHub Pages でブログを始める手順
 1. GitHub アカウントが無い場合は[アカウント作成](https://github.com/)から。
 1. (username).github.io レポジトリを作る
 1. [jekyll](http://jekyllrb.com/) をインストールする
