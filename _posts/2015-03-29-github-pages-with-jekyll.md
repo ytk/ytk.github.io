@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "GitHub Pages でブログを始める"
+title:  "Jekyll を使って GitHub Pages でブログを始める"
 date:   2015-03-29 07:31:56
 tags: jekyll github pages blog
 ---
